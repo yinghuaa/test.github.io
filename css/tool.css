@@ -1,0 +1,40 @@
+.toolbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+.toolbar button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+/* 隱藏顏色選擇器 */
+.color-panel {
+    display: none; /* 初始設置為隱藏 */
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.color-panel button {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+}
+/* 使编辑区域占据整个页面 */
+#editableArea {
+    border: 1px solid #ccc;
+    min-height: 100vh; /* 将高度设为视口高度 */
+    padding: 10px;
+}
